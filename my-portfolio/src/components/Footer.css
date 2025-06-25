@@ -1,0 +1,77 @@
+.contact {
+  background-color: #0a192f;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  color: #00bfff;
+  margin-bottom: 1rem;
+}
+
+.contact h3 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #ffffff;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  color: #dcdcdc;
+}
+
+/* Feedback box */
+.feedback-box {
+  width: 80%;
+  max-width: 600px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  resize: vertical;
+  background-color: #112240;
+  color: white;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+}
+
+
+.submit-btn {
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 6px;
+  color: #0a192f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: #028acb;
+}
+
+
+@media (max-width: 600px) {
+  .contact h1 {
+    font-size: 2rem;
+  }
+
+  .contact h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+
+  .feedback-box {
+    width: 90%;
+  }
+}
